@@ -1,0 +1,19 @@
+
+mkdir libanux-website - Create project folder
+cd libanux-website - change directory from desktop to libanux-website
+git init - Initialize Git repositories
+echo "# Libanux Website" > README.md - Create README
+Create index.html from VS code
+git add . - Staging all files
+git commit -m "chore: initial website structure with README and index.html" - Commit files
+git branch -M main - Rename branch to main
+git remote add origin https://github.com/mohammad-ali-hoteit/libanux-website-git-github-task - Link to GitHub
+git push -u origin main - Push to GitHub
+Create libanux.html from VS code
+git add libanux.html - Staging libanux.html
+git commit -m "add libanux.html" - Commit libanux.html
+git push origin main - Attempt failed push
+git pull origin main - Sync remote changes
+git add . - add the updated README and commit it
+git commit -m "merge changes"
+git push origin main - Push again
